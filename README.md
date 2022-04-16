@@ -39,6 +39,27 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+### Steps to start with the Web APP.
+
+- Backend
+- - First of all add the dataset in the SQL.
+- - After that open the Backend/InvoicecRUD folder in Eclipse.
+- - Later, Install the tomcat 8.5 server in the server folder inside InvoiceCRUD.
+
+- Frontend
+- - Open the Frontend folder in Visual Studio Code.
+- - After this, open up VScode Terminal.
+- - Type in:- npm install. this command will install the node modules folder in the Frontend folder.
+
+- Working of Project
+- - In the Eclipse:- Right click on InvoiceCRUD and Run it in the Tomcat Server.
+This will start the server and a webpage will open in your Browser.
+Type in /fetch in the end of the server URL.
+- After all this, Type in 'npm start' in Visual Studio Code.
+This will start the React APP in the Browser.
+
+Auwza! your app is working now.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
